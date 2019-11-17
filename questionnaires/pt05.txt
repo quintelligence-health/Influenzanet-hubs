@@ -1,0 +1,131 @@
+q1000	Código Postal
+
+q1001	Sexo	
+    1:Masculino;
+    2:Feminino
+
+q1002	Data de nascimento	
+
+q2000	Qual a sua ocupação diária?	
+    1:Escola;
+    2:Trabalho;
+    3:Casa;
+    4:Outra
+
+q2001	Que meio de transporte utiliza diariamente?	
+    1:Bicicleta;
+    2:Carro;
+    3:A pé;
+    4:Transportes públicos
+
+q2002	Em média, quantas constipações sofre por ano?	
+    1:Menos de duas;
+    2:De duas a cinco;
+    3:Mais de 5
+
+q2004	Tomou a vacina da gripe (injecção) este ano?	
+    1:Sim;
+    2:Não
+
+q2005	Sofre de alguma das seguintes doenças?	
+    1:Asma;
+    2:Diabetes;
+    3:Não sofro de nenhuma das duas
+
+q2006	É fumador(a)?	
+    1:Sim, regularmente;
+    2:Sim, às vezes;
+    3:Não sou fumador
+
+q2007	Costuma comer legumes e duas peças de fruta diariamente?
+    1:Regularmente;
+    2:Raramente;
+    3:Nunca
+
+q2008	Toma algum tipo de suplemento?
+    1:Regularmente;
+    2:Raramente;
+    3:Nunca
+
+q2009	Com que frequência pratica desporto?
+    1:Menos de uma hora por semana;
+    2:De uma a quatro horas por semana;
+    3:Mais de 4 horas por semana
+
+q2010	Como caracteriza o seu agregado familiar?
+    1:Vivo sozinho(a);
+    2:O meu agregado familiar inclui apenas adultos;
+    3:O meu agregado familiar inclui crianças
+
+q2011	As crianças frequentam creche ou escola?
+    1:Sim, vão à escola ou creche;
+    2:Não, ficam em casa
+
+q2012	Tem animais de estimação?
+    1:Sim, gatos;
+    2:Sim, cães;
+    3:Sim, pássaros;
+    4:Sim, outros;
+    5:Não tenho animais de estimação
+
+q3000	Desde a ultima vez que preencheu o questionário, sofreu algum dos seguintes sintomas?
+    1:Congestão nasal;
+    2:Tosse;
+    3:Dores de garganta;
+    4:Dores de cabeça intensas;
+    5:Dores musculares generalizadas;
+    6:Dores no peito;
+    7:Dores no estômago;
+    8:Diarreia;
+    9:Enjoo;
+    11:Irritação nos olhos;
+    12:Não tive nenhum dos sintomas anteriores
+    13:Calafrios, Arrepios;
+    14:Debilidade, Prostração;
+
+q3001	Quando deu pelo início dos sintomas?	
+
+q3002	Mediu a temperatura? Se sim, qual foi o valor mais alto?
+    1:Menos de 37 ºC;
+    2:37-37,5 ºC;
+    3:37,5-38 ºC;
+    4:38-38,5 ºC;
+    5:Mais de 39 ºC;
+    6:Não medi
+    8:38,5-39 ºC;
+
+q3003	Em que dia ultrapassou os 38 graus pela primeira vez?
+
+q3004	A febre começou de repente?
+    1:Sim;
+    2:Não;
+    3:Não sei
+
+q3005	Foi ao médico?
+    1:Sim;
+    2:Não
+
+q3006	Qual foi o diagnóstico?	
+
+q3007	Teve de alterar a sua rotina diária?
+    1:Sim, fiquei em casa;
+    2:Sim, mas fui à escola/trabalho;
+    3:Não alterei
+
+q3008	Quantos dias ficou em casa?
+    1:1 dia;
+    2:2-3 dias;
+    3:4-6 dias;
+    4:Uma semana;
+    5:Duas semanas;
+    6:Três semanas
+
+q3009	Tomou algum dos seguintes tipos de medicamentos?
+    1:Antipirético (febre);
+    2:Analgésico (dores);
+    3:Antitússico (tosse);
+    4:Antiviral - Tamiflu;
+    5:Não tomei nenhum dos anteriores
+    6:Antiviral - Relenza;
+
+q3010	Em que dia começou a tomar o antiviral?	

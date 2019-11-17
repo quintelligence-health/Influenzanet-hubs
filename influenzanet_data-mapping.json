@@ -1,0 +1,665 @@
+
+{
+"mappings" :
+	{
+	"intake" :
+		{
+		"properties" :
+			{
+			"country" :
+				{
+					"type" : "keyword"
+				},
+			"global_id" :
+				{
+					"type" : "keyword"
+				},
+			"timestamp" :
+				{
+					"type" : "date"
+				},
+			"symptoms_no" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_fever" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_chills" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_nose" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_sneezing" :
+				{
+					"type" : "date"
+				},
+			"symptoms_thoat" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_cough" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_breath" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_headache" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_muscle" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_chest" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_exhausted" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_appetite" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_sputum" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_eyes" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_nausea" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_vomiting" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_diarrhoea" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_stomach" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_other" :
+				{
+					"type" : "keyword"
+				},
+			"reported_ill" :
+				{
+					"type" : "keyword"
+				},
+			"first_symptoms" :
+				{
+					"type" : "keyword"
+				},
+			"first_symptoms_date" :
+				{
+					"type" : "date"
+				},
+			"symptoms_end" :
+				{
+					"type" : "keyword"
+				},
+			"symptoms_abrupt" :
+				{
+					"type" : "keyword"
+				},
+			"fever_start" :
+				{
+					"type" : "keyword"
+				},
+			"fever_start_date" :
+				{
+					"type" : "date"
+				},
+			"fever_abrupt" :
+				{
+					"type" : "keyword"
+				},
+			"fever_temperature" :
+				{
+					"type" : "keyword"
+				},
+			"highest_temperature" :
+				{
+					"type" : "keyword"
+				},
+			"visit_no" :
+				{
+					"type" : "keyword"
+				},
+			"visit_GP" :
+				{
+					"type" : "keyword"
+				},
+			"visit_Emergency" :
+				{
+					"type" : "keyword"
+				},
+			"visit_Hospital" :
+				{
+					"type" : "keyword"
+				},
+			"visit_other" :
+				{
+					"type" : "keyword"
+				},
+			"visit_appointment" :
+				{
+					"type" : "keyword"
+				},
+			"visit_date_0-4" :
+				{
+					"type" : "keyword"
+				},
+			"visit_date_5-7" :
+				{
+					"type" : "keyword"
+				},
+			"visit_date_7plus" :
+				{
+					"type" : "keyword"
+				},
+			"visit_date_unknown" :
+				{
+					"type" : "keyword"
+				},
+			"Q8_0,tel_no" :
+				{
+					"type" : "keyword"
+				},
+			"tel_GPrec" :
+				{
+					"type" : "keyword"
+				},
+			"tel_GP" :
+				{
+					"type" : "keyword"
+				},
+			"tel_NHS" :
+				{
+					"type" : "keyword"
+				},
+			"tel_NFPS" :
+				{
+					"type" : "keyword"
+				},
+			"tel_other" :
+				{
+					"type" : "keyword"
+				},
+			"tel_date_0-4" :
+				{
+					"type" : "keyword"
+				},
+			"tel_date_5-7" :
+				{
+					"type" : "keyword"
+				},
+			"tel_date_7plus" :
+				{
+					"type" : "keyword"
+				},
+			"tel_date_unknown" :
+				{
+					"type" : "keyword"
+				},
+			"medication_no" :
+				{
+					"type" : "keyword"
+				},
+			"medication_painKillers" :
+				{
+					"type" : "keyword"
+				},
+			"medication_caughMedic" :
+				{
+					"type" : "keyword"
+				},
+			"medication_antiviral" :
+				{
+					"type" : "keyword"
+				},
+			"medication_antibiotics" :
+				{
+					"type" : "keyword"
+				},
+			"medication_other" :
+				{
+					"type" : "keyword"
+				},
+			"medication_unknown" :
+				{
+					"type" : "keyword"
+				},
+			"medication_time" :
+				{
+					"type" : "keyword"
+				},
+			"routineChange_no" :
+				{
+					"type" : "keyword"
+				},
+			"offWork" :
+				{
+					"type" : "keyword"
+				},
+			"offWork_time" :
+				{
+					"type" : "date"
+				},
+			"symptoms_cause" :
+				{
+					"type" : "keyword"
+				}
+			}
+		},
+	"survey" :
+		{
+		"properties" :
+			{
+			"country" :
+				{
+					"type" : "keyword"
+				},
+			"user" :
+			{
+				"type" : "keyword"
+			},
+			"global_id" :
+			{
+				"type" : "keyword"
+			},
+			"timestamp" :
+			{
+				"type" : "date"
+			},
+			"household" :
+			{
+				"type" : "keyword"
+			},
+			"gender" :
+			{
+				"type" : "keyword"
+			},
+			"birthdate" :
+			{
+				"type" : "date"
+			},
+			"postcode" :
+			{
+				"type" : "keyword"
+			},
+			"employment" :
+			{
+				"type" : "keyword"
+			},
+			"schoolwork_nopostcode" :
+			{
+				"type" : "keyword"
+			},
+			"schoolwork_postcode" :
+			{
+				"type" : "keyword"
+			},
+			"main_occupation" :
+			{
+				"type" : "keyword"
+			},
+			"education_no" :
+			{
+				"type" : "keyword"
+			},
+			"education_GCSE" :
+			{
+				"type" : "keyword"
+			},
+			"education_A" :
+			{
+				"type" : "keyword"
+			},
+			"education_BA" :
+			{
+				"type" : "keyword"
+			},
+			"education_High" :
+			{
+				"type" : "keyword"
+			},
+			"education_student" :
+			{
+				"type" : "keyword"
+			},
+			"transport_children" :
+			{
+				"type" : "keyword"
+			},
+			"transport_elderly" :
+			{
+				"type" : "keyword"
+			},
+			"transport_patients" :
+			{
+				"type" : "keyword"
+			},
+			"transport_groups" :
+			{
+				"type" : "keyword"
+			},
+			"transport_none" :
+			{
+				"type" : "keyword"
+			},
+			"household_0-4" :
+			{
+				"type" : "keyword"
+			},
+			"household_0-4count" :
+			{
+				"type" : "integer"
+			},
+			"household_5-18" :
+			{
+				"type" : "keyword"
+			},
+			"household_5-18count" :
+			{
+				"type" : "integer"
+			},
+			"household_19-44" :
+			{
+				"type" : "keyword"
+			},
+			"household_19-44count" :
+			{
+				"type" : "integer"
+			},
+			"household_45-64" :
+			{
+				"type" : "date"
+			},
+			"household_45-64count" :
+			{
+				"type" : "integer"
+			},
+			"household_65plus" :
+			{
+				"type" : "keyword"
+			},
+			"household_65pluscount" :
+			{
+				"type" : "integer"
+			},
+			"household_schoolchildren" :
+			{
+				"type" : "keyword"
+			},
+			"transport" :
+			{
+				"type" : "date"
+			},
+			"public_transport" :
+			{
+					"type" : "keyword"
+			},
+			"flu-like_count" :
+			{
+				"type" : "integer"
+			},
+			"fluvaccine_lastseason" :
+			{
+				"type" : "keyword"
+			},
+			"fluvaccine_thisseason" :
+			{
+				"type" : "keyword"
+			},
+			"fluvaccine_unknown" :
+			{
+				"type" : "keyword"
+			},
+			"fluvaccine_lastdate" :
+			{
+				"type" : "date"
+			},
+			"fluvaccine_risk" :
+			{
+				"type" : "keyword"
+			},
+			"fluvaccine_get" :
+			{
+				"type" : "keyword"
+			},
+			"fluvaccine_spread" :
+			{
+				"type" : "keyword"
+			},
+			"fluvaccine_doctor" :
+			{
+				"type" : "keyword"
+			},
+			"fluvaccine_workschool" :
+			{
+				"type" : "keyword"
+			},
+			"fluvaccine_convenience" :
+			{
+				"type" : "keyword"
+			},
+			"fluvaccine_free" :
+			{
+				"type" : "keyword"
+			},
+			"fluvaccine_notmisswork" :
+			{
+				"type" : "keyword"
+			},
+			"fluvaccine_recurrent" :
+			{
+				"type" : "keyword"
+			},
+			"fluvaccine_other" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_plan" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_noOffer" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_noRisk" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_natural" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_doubt" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_minor" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_unlikely" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_canCause" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_notSafe" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_dislike" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_notAvailable" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_notFree" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_noReason" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_dislike" :
+			{
+				"type" : "keyword"
+			},
+			"nofluvaccine_other" :
+			{
+				"type" : "keyword"
+			},
+			"medical_no" :
+			{
+				"type" : "keyword"
+			},
+			"medical_asthma" :
+			{
+				"type" : "keyword"
+			},
+			"medical_diabetes" :
+			{
+				"type" : "keyword"
+			},
+			"medical_chronicLung" :
+			{
+				"type" : "keyword"
+			},
+			"medical_hearth" :
+			{
+				"type" : "keyword"
+			},
+			"medical_kidney" :
+			{
+				"type" : "keyword"
+			},
+			"medical_immunocompromisin" :
+			{
+				"type" : "keyword"
+			},
+			"pregnant" :
+			{
+				"type" : "keyword"
+			},
+			"pregnancy_semester" :
+			{
+				"type" : "integer"
+			},
+			"smoker" :
+			{
+				"type" : "keyword"
+			},
+			"allergy_hayFever" :
+			{
+				"type" : "keyword"
+			},
+			"allergy_houseDust" :
+			{
+				"type" : "keyword"
+			},
+			"allergy_domesticAnimals" :
+			{
+				"type" : "keyword"
+			},
+			"allergy_other" :
+			{
+				"type" : "keyword"
+			},
+			"allergy_no" :
+			{
+				"type" : "keyword"
+			},
+			"diet_no" :
+			{
+				"type" : "keyword"
+			},
+			"diet_vegeterian" :
+			{
+				"type" : "keyword"
+			},
+			"diet_vegan" :
+			{
+				"type" : "keyword"
+			},
+			"diet_lowcarb" :
+			{
+				"type" : "keyword"
+			},
+			"diet_other" :
+			{
+				"type" : "keyword"
+			},
+			"pets_no" :
+			{
+				"type" : "keyword"
+			},
+			"pets_dogs" :
+			{
+				"type" : "keyword"
+			},
+			"pets_cats" :
+			{
+				"type" : "keyword"
+			},
+			"pets_birds" :
+			{
+				"type" : "keyword"
+			},
+			"pets_other" :
+			{
+				"type" : "keyword"
+			},
+			"dissemination_radioTv" :
+			{
+				"type" : "keyword"
+			},
+			"dissemination_newspaper" :
+			{
+				"type" : "keyword"
+			},
+			"dissemination_online" :
+			{
+				"type" : "keyword"
+			},
+			"dissemination_poster" :
+			{
+				"type" : "keyword"
+			},
+			"dissemination_familyFriends" :
+			{
+				"type" : "keyword"
+			},
+			"dissemination_schoolWork" :
+			{
+				"type" : "keyword"
+			}
+		}
+	}
+}

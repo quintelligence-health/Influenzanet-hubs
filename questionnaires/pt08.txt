@@ -1,0 +1,218 @@
+q1000 Código Postal de Residência
+
+q1001 Sexo
+   1: Masculino;
+   2: Feminino
+
+q1002 Data de Nascimento
+
+q1005 Código Postal de Trabalho/Escola
+
+q2000 Qual a sua ocupação diária?
+   1: Escola/Universidade;
+   2: Trabalho;
+   3: Casa;
+   99: Outro
+
+q2001 Que meio de transporte utiliza diáriamente?
+   1: Mota ou Bicicleta;
+   2: Carro;
+   3: A pé;
+   4: Transportes públicos
+
+q2002 Em média, quantas constipações sofre por ano?
+   1: Menos de duas;
+   2: De duas a cinco;
+   3: Mais de 5
+
+q2003 Por favor caracterize cada um dos membros (idades)
+
+q2004 Sofre de alguma das seguintes doenças?
+   1: Asma;
+   2: Diabetes;
+   3: Asma e diabetes;
+   99: Não sofro de nenhuma das duas
+
+q2005 É fumador(a)?
+   1: Sim, regularmente;
+   2: Sim, às vezes;
+   99: Não sou fumador(a)
+
+q2006 Por favor caracterize cada um dos membros (trabalha/escola)
+
+q2007 Quantos membros tem o seu agregado familiar?
+
+q2008 Com que frequência pratica desporto?
+   1: Menos de uma hora por semana;
+   2: De uma a 4 horas por semana;
+   3: Mais de 4 horas por semana
+
+q2010 Aceita participar em quais dos seguintes estudos?
+   1: Monitorização da Gripe;
+   2: Monitorização de Gastroentrites (novo);
+   3: Padrões de contacto
+
+q2011 Tem animais de estimação?
+   1: Sim, gatos;
+   2: Sim, cães;
+   3: Sim, pássaros;
+   4: Sim, outros;
+   99: Não tenho animais de estimação
+
+q2013 Tipo de Participação
+   1: Individual;
+   2: Universidade de Évora;
+   3: Universidade do Porto;
+   4: Colaborador da Portugal Telecom
+
+q2014 Tipo de Participação (Universidade de Évora)
+   1: estudante;
+   2: Funcionário Docente;
+   3: Funcionário Não Docente
+
+q2014 Tipo de Participação (Universidade do Porto)
+   1: Estudante;
+   2: Funcionário Docente;
+   3: Funcionário Não Docente
+
+q2015 Localização (Universidade de Évora)
+   1: Alter do Chão;
+   2: Escola Superior de Enfermagem;
+   3: Espirito Santo;
+   4: Herdade Experimental;
+   5: Leões;
+   6: Leões e Palácio do Vimiososo;
+   7: Luís António Verney;
+   8: Marvão;
+   9: Mitra
+   10: Pedro da Fonseca;
+   11: Sines;
+
+q2015 Localização (Universidade do Porto)
+   1: Arquitectura;
+   2: Belas-Artes;
+   3: Ciências;
+   4: Ciências da Nutrição;
+   5: Desporto;6: Direito;
+   7: Economia;
+   8: Engenharia;
+   9: Farmácia
+   10: ICBAS;
+   11: Letras;
+   12: Medicina;
+   13: Medicina Dentária;
+   14: Psicologia e C. Educação;
+   15: Reitoria;
+   16: SASUP;
+
+q2016 Tipo de Participação (PT)
+   1: externo;
+   2: sala open-space;
+   3: gabinete;
+   4: outro
+
+q2040 Tomou a vacina da gripe (injecção) este ano?
+   1: Sim;
+   99: Não
+
+q2041 Porque razão tomou a vacina?
+   1: Foi recomendado pelo médico;
+   2: Faço parte de um grupo de risco;
+   3: Faz parte do plano de vacinação da minha empresa/instituição;
+   4: Outra razão
+
+q2042 Porque razão não tomou a vacina?
+   1: Não tomei por recomendação do médico;
+   2: Não acredito que a vacina me proteja contra a gripe;
+   3: Acredito que a vacina poderá causar gripe quando tomada;
+   4: Receio efeitos secundários causados pela vacina;
+   5: Porque não pertenço a um grupo de risco;
+   6: Ainda vou tomar a vacina este ano;
+   99: Por nenhuma destas razões
+
+q3000 Desde a ultima vez que preencheu o questionário, sofreu algum dos seguintes sintomas?
+   1: Congestão nasal;
+   2: Dores de garganta;
+   3: Tosse;
+   4: Irritação nos olhos;
+   5: Dores de cabeça intensas;
+   6: Dores musculares generalizadas;
+   7: Debilidade, Prostração;
+   8: Falta de apetite;
+   99: Não tive nenhum dos sintomas anteriores
+
+q3001 Quando deu pelo início dos sintomas?
+
+q3002 Teve febre?
+   1: Sim, entre 38,0 e 38,5 ºC;
+   2: Sim, entre 38,5 e 39,0 ºC;
+   3: Sim, mais de 39 ºC;
+   4: Não medi mas senti-me febril (calafrios, arrepios);
+   99: Não tive febre
+
+q3003 Quando começou a febre?
+
+q3004 A febre começou de repente?
+   1: Sim;
+   2: Não sei;
+   99: Não
+
+q3005 Foi ao médico?
+   1: Sim;99: Não
+
+q3006 Teve de alterar a sua rotina diária?
+   1: Sim, fiquei em casa;
+   2: Sim, mas fui à escola/trabalho;
+   99: Não alterei
+
+q3007 Quantos dias alterou a sua rotina?
+   1: 1 dia;
+   2: 2-3 dias;
+   3: 4-6 dias;
+   4: Uma semana;
+   5: Mais de uma semana
+
+q5000 Desde a ultima vez que preencheu o questionário, sofreu algum
+dos seguintes sintomas?
+   1: Diarreia;
+   2: Naúseas;
+   3: Vómitos;
+   4: Cólicas abdominais;
+   5: Irritação nos olhos;
+   6: Dores de cabeça intensas;
+   7: Dores musculares generalizadas;
+   8: Debilidade, Prostração;
+   9: Falta de apetite;
+   99: Não tive nenhum dos sintomas anteriores
+
+q5001 Quando deu pelo início dos sintomas?
+
+q5002 Teve febre?
+   1: Sim, entre 38,0 e 38,5 ºC;
+   2: Sim, entre 38,5 e 39,0 ºC;
+   3: Sim, mais de 39 ºC;
+   4: Não medi mas senti-me febril (calafrios, arrepios);
+   99: Não tive febre
+
+q5003 Quando começou a febre?
+
+q5004 A febre começou de repente?
+   1: Sim;
+   2: Não sei;
+   99: Não
+
+q5005 Foi ao médico?
+   1: Sim;
+   99: Não
+
+q5006 Teve de alterar a sua rotina diária?
+   1: Sim, fiquei em casa;
+   2: Sim, mas fui à escola/trabalho;
+   99: Não alterei
+
+q5007 Quantos dias alterou a sua rotina?
+   1: 1 dia;
+   2: 2-3 dias;
+   3: 4-6 dias;
+   4: Uma semana;
+   5: Mais de uma semana

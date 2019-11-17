@@ -1,0 +1,403 @@
+
+{
+"mappings" :
+	{
+	"intake" :
+		{
+		"properties" :
+			{
+			"country" :
+				{
+					"type" : "keyword"
+				},
+			"year" :
+				{
+					"type" : "keyword"
+				},
+			"uid" :
+				{
+					"type" : "keyword"
+				},
+			"qid" :
+				{
+					"type" : "keyword"
+				},
+			"qdate" :
+				{
+					"type" : "date"
+				},
+			"q100" :
+				{
+					"type" : "keyword"
+				},
+			"q110" :
+				{
+					"type" : "keyword"
+				},
+			"q200" :
+				{
+					"type" : "keyword"
+				},
+			"q300" :
+				{
+					"type" : "date"
+				},
+			"q400" :
+				{
+					"type" : "keyword"
+				},
+			"q410" :
+				{
+					"type" : "keyword"
+				},
+			"q420" :
+				{
+					"type" : "keyword"
+				},
+			"q500" :
+				{
+					"type" : "keyword"
+				},
+			"q550" :
+				{
+					"type" : "keyword"
+				},
+			"q600" :
+				{
+					"type" : "keyword"
+				},
+			"q700" :
+				{
+					"type" : "keyword"
+				},
+			"q705" :
+				{
+					"type" : "date"
+				},
+			"q706" :
+				{
+					"type" : "date"
+				},
+			"q707" :
+				{
+					"type" : "keyword"
+				},
+			"q710" :
+				{
+					"type" : "keyword"
+				},
+			"q720" :
+				{
+					"type" : "keyword"
+				},
+			"q730" :
+				{
+					"type" : "keyword"
+				},
+			"q735" :
+				{
+					"type" : "date"
+				},
+			"q736" :
+				{
+					"type" : "date"
+				},
+			"q740" :
+				{
+					"type" : "keyword"
+				},
+			"q760" :
+				{
+					"type" : "keyword"
+				},
+			"q800" :
+				{
+					"type" : "keyword"
+				},
+			"q850" :
+				{
+					"type" : "keyword"
+				},
+			"q900" :
+				{
+					"type" : "keyword"
+				},
+			"q1000" :
+				{
+					"type" : "keyword"
+				},
+			"q1010" :
+				{
+					"type" : "keyword"
+				},
+			"q1020" :
+				{
+					"type" : "keyword"
+				},
+			"q1100" :
+				{
+					"type" : "keyword"
+				},
+			"q1200" :
+				{
+					"type" : "keyword"
+				},
+			"q1210" :
+				{
+					"type" : "keyword"
+				},
+			"q1211" :
+				{
+					"type" : "keyword"
+				},
+			"q1212" :
+				{
+					"type" : "keyword"
+				},
+			"q1220" :
+				{
+					"type" : "keyword"
+				},
+			"q1250" :
+				{
+					"type" : "keyword"
+				},
+			"q1251" :
+				{
+					"type" : "keyword"
+				},
+			"q1260" :
+				{
+					"type" : "keyword"
+				},
+			"q1270" :
+				{
+					"type" : "keyword"
+				},
+			"q1400" :
+				{
+					"type" : "keyword"
+				},
+			"q1500" :
+				{
+					"type" : "keyword"
+				},
+			"q1600" :
+				{
+					"type" : "keyword"
+				},
+			"q1610" :
+				{
+					"type" : "keyword"
+				},
+			"q1700" :
+				{
+					"type" : "keyword"
+				},
+			"q1800" :
+				{
+					"type" : "keyword"
+				},
+			"vaccin" :
+				{
+					"type" : "keyword"
+				},
+			"age" :
+				{
+					"type" : "keyword"
+				},
+			"start_date" :
+				{
+					"type" : "date"
+				},
+			"end_date" :
+				{
+					"type" : "date"
+				},
+			"surveys" :
+				{
+					"type" : "integer"
+				},
+			"days" :
+				{
+					"type" : "integer"
+				},
+			"freq" :
+				{
+					"type" : "integer"
+				}
+			}
+		},
+	"survey" :
+		{
+		"properties" :
+			{
+			"country" :
+				{
+					"type" : "keyword"
+				},
+			"year" :
+				{
+					"type" : "keyword"
+				},
+			"sid" :
+			{
+				"type" : "keyword"
+			},
+			"sdate" :
+			{
+				"type" : "date"
+			},
+			"s100" :
+			{
+				"type" : "keyword"
+			},
+			"s110" :
+			{
+				"type" : "keyword"
+			},
+			"s111" :
+			{
+				"type" : "keyword"
+			},
+			"s120" :
+			{
+				"type" : "keyword"
+			},
+			"s200" :
+			{
+				"type" : "keyword"
+			},
+			"s210" :
+			{
+				"type" : "keyword"
+			},
+			"s220" :
+			{
+				"type" : "keyword"
+			},
+			"s230" :
+			{
+				"type" : "keyword"
+			},
+			"s300" :
+			{
+				"type" : "keyword"
+			},
+			"s310" :
+			{
+				"type" : "keyword"
+			},
+			"s320" :
+			{
+				"type" : "keyword"
+			},
+			"s330" :
+			{
+				"type" : "integer"
+			},
+			"s331" :
+			{
+				"type" : "integer"
+			},
+			"s332" :
+			{
+				"type" : "integer"
+			},
+			"s333" :
+			{
+				"type" : "integer"
+			},
+			"s334" :
+			{
+				"type" : "integer"
+			},
+			"s340" :
+			{
+				"type" : "integer"
+			},
+			"s341" :
+			{
+				"type" : "integer"
+			},
+			"s342" :
+			{
+				"type" : "integer"
+			},
+			"s343" :
+			{
+				"type" : "integer"
+			},
+			"s344" :
+			{
+				"type" : "integer"
+			},
+			"s400" :
+			{
+				"type" : "keyword"
+			},
+			"s410" :
+			{
+				"type" : "keyword"
+			},
+			"s420" :
+			{
+				"type" : "keyword"
+			},
+			"s500" :
+			{
+				"type" : "keyword"
+			},
+			"s510" :
+			{
+				"type" : "date"
+			},
+			"s520" :
+			{
+				"type" : "integer"
+			},
+			"s600" :
+			{
+				"type" : "keyword"
+			},
+			"s610" :
+			{
+				"type" : "keyword"
+			},
+			"s700" :
+			{
+				"type" : "keyword"
+			},
+			"s750" :
+			{
+				"type" : "date"
+			},
+			"s751" :
+			{
+					"type" : "keyword"
+			},
+			"s800" :
+			{
+				"type" : "keyword"
+			},
+			"s900" :
+			{
+				"type" : "keyword"
+			},
+			"s1000" :
+			{
+				"type" : "integer"
+			},
+			"s1050" :
+			{
+				"type" : "integer"
+			},
+			"sid_uid" :
+			{
+				"type" : "keyword"
+			}
+
+			}
+		}
+	}
+}
