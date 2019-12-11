@@ -4,10 +4,7 @@ QMIDAS Influenzanet Hubs Dashboard
 
 The Influenzanet Hubs Dashboard is a dynamic dashboard allowing for the easy manipulation and visualisation of Influenzanet data, both from intake questionnaires and weekly surveys. It aims to provide public health professionals and data analysts with intuitive and accurate tools to explore their own KPIs, making them independent of often busy ICT departments. The backend is based on the Elasticsearch technology that allows for powerful queries using the Lucene language sintax. The frontend is based on the Kibana add-on that allows the user to build and share their own dashboards of visualisation modules. 
 
-**[Main homepage](http://midas.quintelligence.com/midas-influenzanet-demos)**
-
-**[Main project homepage](http://www.midasproject.eu/)**
-
+![Screenshot MeSH Classifier](https://github.com/joaopitacosta/images/blob/master/influenzanet6.png)
 
 ### Install 
 
