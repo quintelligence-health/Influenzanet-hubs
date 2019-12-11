@@ -41,8 +41,8 @@ For detailed installation of Elasticsearch and Kibana check the following instru
 ## Documentation
 
 - [Examples, user stories and demonstrations](http://midas.quintelligence.com/midas-influenzanet-demos)
-- [Architecture](https://github.com/qmidas/qmidas-influenzanet/wiki/Architecture)
-- [User Guide](https://github.com/qmidas/qmidas-influenzanet/wiki/UserGuide)
+- [Architecture](https://github.com/quintelligence-health/Influenzanet-hubs/wiki)
+- [User Guide](https://github.com/quintelligence-health/Influenzanet-hubs/wiki)
 - [Reference research paper](https://ailab.ijs.si/dunja/SiKDD2019/Papers/PitaCosta_Influenzanet_Final.pdf)
 
 ## Acknowledgments
